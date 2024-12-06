@@ -6,25 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "add",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "global",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allStudents",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
 						"type": "uint256"
 					}
 				],
@@ -32,16 +30,21 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "val",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_age",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "getStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Variable_Types.sol": "functions"
+			"Struct.sol": "sol_struct"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Variable_Types.sol": {
-			"keccak256": "0x0c6cebe09831a6239ff2443f3c3cf463cf6be7e8e02372d15eba57aef5627993",
+		"Struct.sol": {
+			"keccak256": "0xe15728729d66fa9697fd7e0d7a5fb3103e82c0d5b5ce2bbf8f73f7529a9ac077",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8dec93b9ace7c823cb920bc4a01936ea7f3b1df48d7dd9f28d389cc2073c6c6a",
-				"dweb:/ipfs/QmVTytTNpNgJJXTACLngXZQFCwfhC5Egtn9RHZpLcCf7JV"
+				"bzz-raw://685a950a40b5a0ac7be0cfbe10186fab52be63d5601c8ba04a4bf777df65992d",
+				"dweb:/ipfs/QmYVLktg2rRvcecwaiGgLo8EJDr6WTrLfX8JnT7v5wdjk3"
 			]
 		}
 	},
