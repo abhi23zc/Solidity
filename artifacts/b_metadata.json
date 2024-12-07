@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					}
+				],
+				"name": "genPass",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPass",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "password",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					}
+				],
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Inheritance.sol": "b"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Inheritance.sol": {
+			"keccak256": "0x62aac1b026db38bea8c71a0ac8e06b0374ba40702f8c16436389158dc7567428",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6432e67bbbd4236230b2e7156739987f6c040c14f814266e808fb2fa56489ab1",
+				"dweb:/ipfs/QmUDEAnbb8cZWAA9ASzJW9PPJs95vPBV1DYjQjkpZVusYA"
+			]
+		},
+		"hash.sol": {
+			"keccak256": "0xbd3bbca49dee3504e136b4d719ef71b7f4e42a6293432aa96a742e3e710fb3e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://763496924f1e1c587949a77bf956a2fc5207a7a608508eb3a2b3bddc0cf0f83a",
+				"dweb:/ipfs/QmRyWiUz4QqUdHdoGQGeRuneSuf6nTaKi3J34hkqi4qEoF"
+			]
+		}
+	},
+	"version": 1
+}
