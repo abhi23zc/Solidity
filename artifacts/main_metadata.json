@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Virtual-Override.sol": "base"
+			"Virtual-Override.sol": "main"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
