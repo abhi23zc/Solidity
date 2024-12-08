@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "val",
+				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Virtual-Override.sol": "base"
+			"Interfaces.sol": "base"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Virtual-Override.sol": {
-			"keccak256": "0x597b83a7b412501c5215a5cdeb22abadfd5732ce47b0fe1e183f634a9180ff33",
+		"Interfaces.sol": {
+			"keccak256": "0x659b59680d97e3fc18b2dce959794f8fc6eefbc6d7d45ea9095326d3d34ef05c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff593e300caec931221496ad5746132a2db2d8045f3a03328256ddcc7402f2be",
-				"dweb:/ipfs/QmXQB4zUiDo5teRScrrWZ4nTfU3F7NWPyoSMT8sZRTtydw"
+				"bzz-raw://da427ad5660587fe629e852c410dabb02cc34ebf2ef8a83e622bc716a7b0281c",
+				"dweb:/ipfs/QmXDut5nnjPBFc2hAxrQRis7DnuGjxsCoJe2SV85nEMXzz"
 			]
 		}
 	},
